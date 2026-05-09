@@ -143,8 +143,11 @@ a {
 }
 
 .profile-card h1 {
-  margin-top: 22px;
-  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  width: 100%;
+  max-width: none;
+  margin: 18px 0 0;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.18;
 }
 
 .profile-card p {
