@@ -176,6 +176,25 @@ a {
   font-size: clamp(3.2rem, 7vw, 6.5rem);
 }
 
+.about-copy h2 {
+  max-width: none;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+}
+
+.about-text {
+  display: grid;
+  gap: 16px;
+  max-width: 840px;
+  margin-top: 24px;
+}
+
+.about-text p {
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.4vw, 1.14rem);
+  line-height: 1.78;
+}
+
 .eyebrow,
 .project-kicker {
   margin: 0 0 12px;

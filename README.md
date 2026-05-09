@@ -1,6 +1,6 @@
 # KuNN0911.github.io
 
-Henry Ku's GitHub Pages personal website.
+Feng-Chieh Ku's GitHub Pages personal website.
 
 ## Pages
 
