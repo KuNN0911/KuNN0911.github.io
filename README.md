@@ -7,7 +7,8 @@ Henry Ku's GitHub Pages personal website.
 - `index.html` - home page with profile, about, education, research interests, research experience, and contact.
 - `publications.html` - standalone publications page.
 - `projects.html` - standalone projects page.
-- `cv.html` - CV page placeholder.
+- `Feng_Chieh_Ku_CV.pdf` - CV linked directly from the navigation.
+- `cv.html` - fallback page that redirects to the CV PDF.
 
 ## Local Preview
 
