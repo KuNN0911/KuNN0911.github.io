@@ -3,42 +3,51 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Henry Ku's personal website and portfolio.">
+    <meta name="description" content="Henry Ku's personal academic website, research profile, and portfolio.">
     <meta property="og:title" content="Henry Ku">
     <meta property="og:description" content="Personal website, portfolio, and contact links.">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#101820">
-    <title>Henry Ku | Personal Page</title>
+    <title>Henry Ku | Home</title>
     <link rel="preconnect" href="https://github.com">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Henry Ku home">
+      <a class="brand" href="index.html" aria-label="Henry Ku home">
         <span class="brand-mark">HK</span>
         <span>Henry Ku</span>
       </a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a class="active" href="index.html" aria-current="page">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-media" aria-hidden="true">
-          <img src="https://github.com/KuNN0911.png" alt="">
+      <section class="profile-hero" aria-labelledby="hero-title">
+        <div class="profile-card">
+          <img src="https://github.com/KuNN0911.png" alt="Henry Ku">
+          <h1 id="hero-title">Henry Ku</h1>
+          <p>Software, Web, and AI</p>
+          <div class="profile-links" aria-label="Profile links">
+            <a href="https://github.com/KuNN0911" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="cv.html">CV</a>
+          </div>
         </div>
         <div class="hero-copy">
-          <p class="eyebrow">Personal website</p>
-          <h1 id="hero-title">Henry Ku</h1>
+          <p class="eyebrow">Personal academic website</p>
+          <h2>Building a public home for research, projects, and notes.</h2>
           <p class="intro">
-            I build, learn, and keep a home for projects, notes, and the work I want people to find.
+            I am interested in software systems, artificial intelligence, and practical tools that turn ideas into useful products.
+            This site keeps my academic profile, project work, publications, and contact links in one place.
           </p>
           <div class="hero-actions" aria-label="Quick links">
-            <a class="button primary" href="#projects">View Projects</a>
-            <a class="button secondary" href="https://github.com/KuNN0911" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button primary" href="projects.html">View Projects</a>
+            <a class="button secondary" href="publications.html">Publications</a>
           </div>
         </div>
       </section>
@@ -50,8 +59,8 @@
         </div>
         <div class="about-grid">
           <p>
-            This site is a small public base for my work, learning notes, and technical experiments.
-            It will keep growing as I add more projects and sharpen the story around what I am building.
+            This page is a living profile for my technical work, research direction, and learning journey.
+            I use it to collect the work that represents how I think, build, study, and collaborate.
           </p>
           <ul class="facts" aria-label="Personal highlights">
             <li><span>Focus</span><strong>Software / Web / AI</strong></li>
@@ -61,29 +70,76 @@
         </div>
       </section>
 
-      <section id="projects" class="section projects-section">
+      <section id="education" class="section split-section">
         <div class="section-heading">
-          <p class="eyebrow">Work</p>
-          <h2>Projects</h2>
+          <p class="eyebrow">Background</p>
+          <h2>Education</h2>
         </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <p class="project-kicker">Featured</p>
-            <h3>Personal Website</h3>
-            <p>A static GitHub Pages site that brings together my portfolio, notes, and contact links.</p>
-            <a href="https://github.com/KuNN0911/KuNN0911.github.io" target="_blank" rel="noreferrer">Repository</a>
+        <div class="list-panel">
+          <article class="resume-item">
+            <span class="resume-date">Current</span>
+            <div>
+              <h3>Degree / Program Name</h3>
+              <p>University or department name. Add coursework, research group, or academic focus here.</p>
+            </div>
           </article>
-          <article class="project-card">
-            <p class="project-kicker">Next</p>
-            <h3>Project Name</h3>
-            <p>A future home for coursework, side projects, research notes, demos, and experiments.</p>
-            <a href="https://github.com/KuNN0911" target="_blank" rel="noreferrer">GitHub Profile</a>
+          <article class="resume-item">
+            <span class="resume-date">Previous</span>
+            <div>
+              <h3>Previous Education</h3>
+              <p>Earlier degree, certificate, exchange program, or academic milestone.</p>
+            </div>
           </article>
-          <article class="project-card">
-            <p class="project-kicker">Writing</p>
-            <h3>Learning Notes</h3>
-            <p>Short notes about technical ideas, debugging lessons, and the things I learn along the way.</p>
-            <a href="#contact">Get in Touch</a>
+        </div>
+      </section>
+
+      <section id="interests" class="section interests-section">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>Research Interests</h2>
+        </div>
+        <div class="interest-grid">
+          <article>
+            <h3>Artificial Intelligence</h3>
+            <p>Learning systems, applied AI workflows, and human-centered intelligent tools.</p>
+          </article>
+          <article>
+            <h3>Software Systems</h3>
+            <p>Reliable web applications, developer tools, and systems that make technical work easier.</p>
+          </article>
+          <article>
+            <h3>Human-Computer Interaction</h3>
+            <p>Interfaces that help people explore information, make decisions, and create with confidence.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="research-experience" class="section split-section">
+        <div class="section-heading">
+          <p class="eyebrow">Timeline</p>
+          <h2>Research Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">Present</span>
+            <div>
+              <h3>Research Role / Lab Name</h3>
+              <p>Add your current research position, advisor, lab, and primary research theme.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2025</span>
+            <div>
+              <h3>Project or Internship</h3>
+              <p>Summarize the problem, methods, and impact of the work in one or two sentences.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2024</span>
+            <div>
+              <h3>Early Research Experience</h3>
+              <p>Reserve this slot for earlier academic projects, lab work, or independent study.</p>
+            </div>
           </article>
         </div>
       </section>

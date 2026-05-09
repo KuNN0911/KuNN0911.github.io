@@ -2,6 +2,13 @@
 
 Henry Ku's GitHub Pages personal website.
 
+## Pages
+
+- `index.html` - home page with profile, about, education, research interests, research experience, and contact.
+- `publications.html` - standalone publications page.
+- `projects.html` - standalone projects page.
+- `cv.html` - CV page placeholder.
+
 ## Local Preview
 
 Open `index.html` directly in a browser.
