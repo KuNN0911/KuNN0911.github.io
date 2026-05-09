@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Henry Ku 的個人網站與作品集。">
+    <meta property="og:title" content="Henry Ku">
+    <meta property="og:description" content="個人網站、作品集與聯絡資訊。">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#101820">
+    <title>Henry Ku | Personal Page</title>
+    <link rel="preconnect" href="https://github.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Henry Ku 首頁">
+        <span class="brand-mark">HK</span>
+        <span>Henry Ku</span>
+      </a>
+      <nav class="nav" aria-label="主要導覽">
+        <a href="#about">關於</a>
+        <a href="#projects">作品</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="https://github.com/KuNN0911.png" alt="">
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Personal website</p>
+          <h1 id="hero-title">Henry Ku</h1>
+          <p class="intro">
+            我正在建立自己的 GitHub Pages，整理作品、筆記與可以被找到的入口。
+          </p>
+          <div class="hero-actions" aria-label="快速連結">
+            <a class="button primary" href="#projects">查看作品</a>
+            <a class="button secondary" href="https://github.com/KuNN0911" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>關於我</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            這裡可以放你的自我介紹、目前專注的技術、學習方向，或希望別人認識你的方式。
+            先讓網站上線，之後再慢慢把內容打磨成更像你的版本。
+          </p>
+          <ul class="facts" aria-label="個人重點">
+            <li><span>Focus</span><strong>Software / Web / AI</strong></li>
+            <li><span>Location</span><strong>Taiwan</strong></li>
+            <li><span>GitHub</span><strong>@KuNN0911</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="section-heading">
+          <p class="eyebrow">Work</p>
+          <h2>作品集</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-kicker">Featured</p>
+            <h3>個人網站</h3>
+            <p>使用 GitHub Pages 架設的靜態個人首頁，作為作品與聯絡資訊的集中入口。</p>
+            <a href="https://github.com/KuNN0911/HenryKu.github.io" target="_blank" rel="noreferrer">Repository</a>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">Next</p>
+            <h3>作品名稱</h3>
+            <p>之後可以把課堂專案、side project、研究筆記或 demo 放在這裡。</p>
+            <a href="https://github.com/KuNN0911" target="_blank" rel="noreferrer">GitHub Profile</a>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">Writing</p>
+            <h3>學習筆記</h3>
+            <p>整理技術筆記、踩坑紀錄與學習心得，讓這個網站慢慢變成你的公開基地。</p>
+            <a href="#contact">保持聯絡</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>聯絡我</h2>
+        </div>
+        <p>
+          你可以先用 GitHub 作為主要聯絡入口；若之後要加 email、LinkedIn 或履歷下載，也可以直接改這個區塊。
+        </p>
+        <a class="button primary" href="https://github.com/KuNN0911" target="_blank" rel="noreferrer">前往 GitHub</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Henry Ku</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
